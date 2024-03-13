@@ -8,11 +8,15 @@ function TemplateFunction(props) {
   // Using hooks we're creating local state for a "heading" variable with
   // a default value of 'Functional Component'
   const store = useSelector((store) => store);
-  const [heading, setHeading] = useState('Change this.');
+  
 
   return (
     <div>
-      <h2>{heading}</h2>
+      <h1>Import Users Name</h1>
+      <h2>Import users image</h2>
+      <button>Change Profile Picture </button>
+      <h2>-User's name- Gallery of Games</h2>
+      <button>Record a Game</button>
     </div>
   );
 }
