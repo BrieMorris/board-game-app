@@ -1,7 +1,7 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const encryptLib = require('../modules/encryption');
-const pool = require('./pool');
+const pool = require('./Modules/pool');
 
 
 passport.serializeUser((user, done) => {

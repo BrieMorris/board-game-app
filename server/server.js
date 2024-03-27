@@ -11,7 +11,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
+/** ---------- MIDDLEWARE ---------- **/
+const { rejectUnauthenticated } = require("./modules/authentication-middleware"); //may not need this 
 
 // Serve static files
 app.use(express.static('build'));
