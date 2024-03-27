@@ -1,18 +1,23 @@
 import React, { useState } from 'react';
 import {useSelector} from 'react-redux';
 
-//RecordGames function keeps track of the games users input 
-function RecordGames(props) {
+// Record Games funtion for users to record games they have played
+function RecordGame(props) {
   // Using hooks we're creating local state for a "heading" variable with
   // a default value of 'Functional Component'
-  const store = useSelector((store) => store);
-  const [heading, setHeading] = useState('Change this.');
+  // const store = useSelector((store) => store);
+  
 
   return (
     <div>
-      <h2>{heading}</h2>
+       <h1>Record </h1>
+      <h2>Import users image</h2>
+      <button>Change Profile Picture </button>
+      <h2>-User's name- Gallery of Games</h2>
+      <button>Record a Game</button>
+
     </div>
   );
 }
 
-export default RecordGames;
+export default RecordGame;

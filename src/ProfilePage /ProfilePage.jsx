@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import {useSelector} from 'react-redux';
 
 //userProfile component is for user to view and edit their profile.
-function userProfile(props) {
+function ProfilePage(props) {
   // Using hooks we're creating local state for a "heading" variable with
   // a default value of 'Functional Component'
-  const store = useSelector((store) => store);
+  // const store = useSelector((store) => store);
   
 
   return (
@@ -19,4 +19,4 @@ function userProfile(props) {
   );
 }
 
-export default userProfile;
+export default ProfilePage;
