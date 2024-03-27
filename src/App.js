@@ -21,7 +21,7 @@ function App() {
        {/* <NavBar/> */}
 
        {/* RecordGame route  */}
-       {/* <RecordGame/> */}
+       <RecordGame/>
 
        {/* ProfilePage route  */}
        <ProfilePage/>

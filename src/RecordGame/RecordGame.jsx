@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import {useSelector} from 'react-redux';
 
-//Stretch Goal: Record Games funtion for users to record games they have played
+//Record Games funtion for users to record games they have played
 function RecordGame(props) {
 
-  // const store = useSelector((store) => store);
+  //show recorded games
+
+  //record game form
+ 
   
 
   return (
