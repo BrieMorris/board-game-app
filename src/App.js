@@ -9,7 +9,10 @@ import BrowseGames from './BrowseGames/BrowseGames';
 
 function App() {
   return (
+    //set up login first then routes and run them to nav bar
+    <Router>
     <div>
+
       {/* homepage */}
       <HomePage/>
 
@@ -30,6 +33,7 @@ function App() {
        {/* <BrowseGames/> */}
 
     </div>
+    </Router>
   );
 }
 
